@@ -105,11 +105,11 @@ See ActiveRecord::Base .is_indexed and DEPLOYMENT_NOTES[link:files/DEPLOYMENT_NO
   
 == Available Rake tasks
 
-See RAKE_TASKS[link:files/RAKE_TASKS.html].
+See RAKE_TASKS
 
 == Deployment notes
 
-See DEPLOYMENT_NOTES[link:files/DEPLOYMENT_NOTES.html].
+See DEPLOYMENT_NOTES
 
 == Gotchas
 
@@ -121,4 +121,4 @@ PostgreSQL 8.2 and higher are well supported. However, make sure you have execut
 
 * http://sphinxsearch.com/doc.html
 * http://sphinxsearch.com/forum/forum.html?id=1
-* http://blog.evanweaver.com/articles/2007/07/09/ultraminx-searching-the-world-in-231-seconds
+* http://blog.evanweaver.com/articles/2007/07/09/ultrasphinx-searching-the-world-in-231-seconds
