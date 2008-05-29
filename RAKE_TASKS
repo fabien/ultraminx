@@ -1,0 +1,18 @@
+
+== Available Rake tasks
+
+These Rake tasks are made available to your Merb app:
+
+<tt>ultraminx:configure</tt>:: Rebuild the configuration file for this particular environment.
+<tt>ultraminx:index</tt>:: Reindex and rotate all indexes.
+<tt>ultraminx:index:delta</tt>:: Reindex and rotate the delta index.
+<tt>ultraminx:index:main</tt>:: Reindex and rotate the main index.
+<tt>ultraminx:index:merge</tt>:: Merge the delta index into the main index.
+<tt>ultraminx:daemon:restart</tt>:: Restart the search daemon.
+<tt>ultraminx:daemon:start</tt>:: Start the search daemon.
+<tt>ultraminx:daemon:stop</tt>:: Stop the search daemon.
+<tt>ultraminx:daemon:status</tt>:: Check if the search daemon is running.
+<tt>ultraminx:spelling:build</tt>:: Rebuild the custom spelling dictionary. You may need to use <tt>sudo</tt> if your Aspell folder is not writable by the app user.
+<tt>ultraminx:bootstrap</tt>:: Bootstrap a full Sphinx environment by running configure, index, then daemon:start.
+
+All tasks have shortcuts. Use <tt>us:conf</tt>, <tt>us:index</tt>, <tt>us:main</tt>, <tt>us:delta</tt>, <tt>us:merge</tt>, <tt>us:restart</tt>, <tt>us:start</tt>, <tt>us:stop</tt>, <tt>us:stat</tt>, <tt>us:spell</tt>, and <tt>us:boot</tt>.
