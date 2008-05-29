@@ -31,8 +31,6 @@ Features include:
 * faceting on text, date, and numeric fields
 * field weighting, merging, and aliases
 * <tt>belongs_to</tt> and <tt>has_many</tt> includes
-* drop-in compatibility with will_paginate[http://err.lighthouseapp.com/projects/466/home]
-* drop-in compatibility with Interlock[http://blog.evanweaver.com/files/doc/fauna/interlock/]
 * multiple deployment environments
 * comprehensive Rake tasks
 
@@ -84,11 +82,6 @@ For more query options, including excerpt mode, see Ultraminx::Search.
   
 = Extras  
 
-== Pagination
-
-Once the <tt>@search</tt> object has been <tt>run</tt>, it is directly compatible with the <tt>will_paginate</tt> view helper. In your view, just do:
-  <%= will_paginate(@search) %>
-  
 == Spell checking
 
 See Ultraminx::Spell.
