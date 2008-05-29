@@ -117,12 +117,6 @@ Note that since Ultraminx preloads indexed models, you need to make sure those m
 
 PostgreSQL 8.2 and higher are well supported. However, make sure you have executed <tt>CREATE LANGUAGE plpgsql;</tt> at least once. This step does not need to be repeated, so depending on your DB permissions, you might be able to put it in a migration.
 
-== Reporting problems
-
-The support forum is here[http://rubyforge.org/forum/forum.php?forum_id=14244].
-
-Patches and contributions are very welcome. Please note that contributors are required to assign copyright for their additions to Cloudburst, LLC. 
-
 == Further resources
 
 * http://sphinxsearch.com/doc.html
