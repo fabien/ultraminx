@@ -22,7 +22,6 @@ spec = Gem::Specification.new do |s|
   s.homepage = HOMEPAGE
   s.add_dependency('merb-core', '>= 0.4.0')
   s.require_path = 'lib'
-  s.autorequire = PLUGIN
   s.files = %w(LICENSE README Rakefile TODO DEPLOYMENT_NOTES RAKE_TASKS) + Dir.glob("{lib,specs,vendor,examples}/**/*")
 end
 
